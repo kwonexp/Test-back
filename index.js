@@ -18,9 +18,6 @@ const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 const corsOptions = {
   origin: [
     "https://web-math-front-backup-ly9ixsuqeb5112cb.sel5.cloudtype.app/",
-    "https://port-0-test-back-ly9ixsuqeb5112cb.sel5.cloudtype.app/",
-    "http://localhost:3000",
-    "http://127.0.0.1:5500",
   ],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // 허용되는 HTTP 메서드를 정의합니다.
   credentials: true,
